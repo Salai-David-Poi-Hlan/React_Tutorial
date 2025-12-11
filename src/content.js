@@ -44,7 +44,7 @@ import {useState} from 'react'
 
 
         return (
-            <main>        <p onDoubleClick={handleClick}>
+            <>        <p onDoubleClick={handleClick}>
         Hello {handleNameChanged()}
             </p>
             <p onDoubleClick={handleClick}>
@@ -59,7 +59,7 @@ import {useState} from 'react'
                                                   <button onClick={handleClick5}>Click it</button>
 
 
-            </main>
+            </>
         )
     }
 
